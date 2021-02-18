@@ -1,24 +1,32 @@
 {
-	"trailingComma": "all",
-	"tabWidth": 2,
-	"singleQuote": true,
-	"endOfLine": "crlf",
-	"overrides": [
-		{
-			"files": ["*.js", "*.jsx"],
-			"options": { "parser": "babel-flow" }
-		},
-		{
-			"files": "*.html",
-			"options": { "parser": "html" }
-		},
-		{
-			"files": "*.css",
-			"options": { "parser": "css" }
-		},
-		{
-			"files": "*.json",
-			"options": { "parser": "flow" }
-		}
-	]
+  "trailingComma": "all",
+  "tabWidth": 2,
+  "singleQuote": true,
+  "endOfLine": "crlf",
+  "overrides": [
+    {
+      "files": ["*.js", "*.jsx"],
+      "options": {
+        "parser": "babel-flow"
+      }
+    },
+    {
+      "files": "*.html",
+      "options": {
+        "parser": "html"
+      }
+    },
+    {
+      "files": "*.css",
+      "options": {
+        "parser": "css"
+      }
+    },
+    {
+      "files": "*.json",
+      "options": {
+        "parser": "flow"
+      }
+    }
+  ]
 }
