@@ -12,7 +12,7 @@ function countDownTimer() {
 
 function init() {
   const initValues = {
-    day: 1,
+    day: 14,
     hr: userTime.getHours(),
     min: userTime.getMinutes(),
     sec: userTime.getSeconds(),
@@ -53,7 +53,6 @@ function countDown(values) {
 
   if (sec != 0) {
     sec--;
-   
   } else {
     sec = 59;
     if (min != 0) {
